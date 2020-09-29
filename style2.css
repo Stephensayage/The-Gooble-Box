@@ -1,0 +1,128 @@
+html { 
+  background: url('https://wallpapercave.com/wp/wp1822808.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* background was not staying put, soruce - https://css-tricks.com/perfect-full-page-background-image/ */
+
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  } 
+  
+#header {
+    justify-content: center;
+    align-content: center;
+    margin: 0 10% 100px 10%;
+    height: 250px;
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    color: rgb(222, 222, 222);
+    text-align: center;
+    border-radius: 25px;
+}
+
+  
+#header h1{
+  font-family: 'Merriweather', serif;
+  margin-bottom: 100px;
+  text-shadow: 2px 2px 30px rgb(87, 22, 4);
+}
+
+#header-img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  border: 5px solid rgb(210,133,20);
+}
+
+.nav {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-content: center;
+}
+.menu {
+  font-weight: 600;
+  font-size: 24px;
+  display: inline-block;
+  width: 150px;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(222, 222, 222);
+  margin-bottom: 120px;
+}
+
+#char-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 1500px ;
+    margin: 0 auto;
+}
+
+#char-id{
+border: 3px solid rgb(98,60,49);
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16);
+position: relative;
+background-color: rgb(31,33,39);
+opacity: 98%;
+width: 32%;
+padding-bottom: 18%;
+margin-bottom: 8%;
+margin-right: 5px;
+height: 300px;
+box-shadow: 2px 2px 10px black;
+}
+
+#char-content {
+      display: flex;
+      flex-flow: column wrap;
+      flex-shrink: 1;
+      padding: 125px 20px 20px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-family: 'Special Elite', cursive;
+      color: rgb(147, 143, 143);
+}
+
+.span {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.id-num{
+ position: absolute;
+ left: 5%;
+ top: 4%;
+ padding: 10px;
+ border: 3px solid rgb(98,60,49);
+ border-radius: 5px;
+}
+
+#gen-img {
+height: 200px;
+width: 200px;
+opacity: 1.0 !important; 
+border: 5px solid rgb(98,60,49);
+border-radius: 50%;
+position: absolute;
+top: -85px;
+left: 29%;
+box-shadow: 2px 2px 10px black;
+}
+
+.logo {
+  height: 125px;
+  width: 150px;
+  position: absolute;
+  bottom: 1%;
+  left: 35%;
+  padding-top: 10px;
+}
