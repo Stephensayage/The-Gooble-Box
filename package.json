@@ -1,0 +1,23 @@
+{
+  "name": "the-gooble-box",
+  "version": "1.0.0",
+  "description": "The Gooble Box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephensayage/The-Gooble-Box.git"
+  },
+  "author": "Stephen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephensayage/The-Gooble-Box/issues"
+  },
+  "homepage": "https://github.com/Stephensayage/The-Gooble-Box#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

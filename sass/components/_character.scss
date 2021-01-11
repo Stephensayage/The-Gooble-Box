@@ -1,0 +1,64 @@
+.char {
+  &-container {
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 15rem;
+  }
+
+  &-card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid $color-border-org;
+    border-radius: 2px;
+    background-color: $color-background;
+    margin-bottom: 15rem;
+    margin-left: 5rem;
+    width: 25%;
+    min-height: 50rem;
+    box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: 0.3);
+  }
+
+  &-img {
+    border: 2px solid $color-border-org;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: -11rem;
+    left: 7rem;
+    box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: 0.3);
+    transition: all 01s;
+  }
+  &-img:hover {
+    transform: rotate(360deg);
+  }
+
+  &-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  &-logo {
+    width: 80%;
+  }
+  &-id-num {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    border-bottom: 2px solid $color-border-org;
+
+    padding: 0.5rem;
+  }
+}
+.span {
+  border-bottom: 1px solid white;
+}

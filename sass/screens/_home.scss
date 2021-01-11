@@ -1,0 +1,24 @@
+.section-header {
+  height: 80vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0.5rem;
+  border-radius: 3px;
+  @include media(phone) {
+    width: 100%;
+  }
+}
+
+.section-instructions {
+  margin-top: 10rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.section-gooble {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}

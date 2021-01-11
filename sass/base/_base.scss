@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  background: url("https://wallpapercave.com/wp/wp1822808.png") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  @include media(tablet-land) {
+    font-size: 56.25%; // has to come first
+  }
+  @include media(tablet-port) {
+    // 1rem = 8px / 8/16px = 50%
+    font-size: 50%;
+  }
+  @include media(laptop) {
+    font-size: 75%;
+  }
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  @include media(phone) {
+    width: 100%;
+  }
+}

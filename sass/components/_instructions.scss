@@ -1,0 +1,64 @@
+.instructions {
+  &-ctn {
+    position: relative;
+    width: 50%;
+    min-height: 10rem;
+    border: 1px solid $color-border-org;
+    border-radius: 0.3rem;
+    padding: 5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba($color-background, $alpha: 1);
+    margin-bottom: 5rem;
+    box-shadow: 0 1rem 2rem rgba($color: #000000, $alpha: 0.7);
+  }
+  &-dialog {
+    width: 90%;
+    text-align: center;
+  }
+  &-rick-img {
+    position: absolute;
+    top: -8rem;
+    left: -7rem;
+    height: 16rem;
+    width: 14rem;
+    border-left: 1px solid $color-border-org;
+    border-top: 1px solid $color-border-org;
+    border-radius: 50%;
+    background-color: rgba($color-background, $alpha: 01);
+    box-shadow: -8px 0px 5px -5px rgba(0, 0, 0, 0.8),
+      0px 0px 5px -5px rgba(0, 0, 0, 0.8);
+  }
+  &-morty-img {
+    position: absolute;
+    top: -7rem;
+    left: 76rem;
+    height: 14rem;
+    width: 12rem;
+    border-left: 1px solid $color-border-org;
+    border-top: 1px solid $color-border-org;
+    border-radius: 50%;
+    background-color: rgba($color-background, $alpha: 01);
+    transform: scaleX(-1);
+    box-shadow: -8px 0px 5px -5px rgba(0, 0, 0, 0.8),
+      0px 0px 5px -5px rgba(0, 0, 0, 0.8);
+  }
+
+  &-how-to {
+    width: 30%;
+    border: 1px solid $color-border-org;
+    border-radius: 0.3rem;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: rgba($color-background, $alpha: 1);
+    margin-bottom: 4rem;
+    &-h3 {
+      border-bottom: 1px solid white;
+      margin-bottom: 2rem;
+    }
+  }
+}

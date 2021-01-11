@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  background-color: $color-background;
+  height: 5rem;
+
+  &-text {
+    padding-top: 1rem;
+  }
+  &-api-link {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+  }
+  &-api-link:hover {
+    color: $color-link;
+  }
+}

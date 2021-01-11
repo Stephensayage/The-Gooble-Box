@@ -1,0 +1,23 @@
+#gif {
+  display: flex;
+  justify-content: center;
+}
+.portal {
+  height: 25rem;
+  width: 20rem;
+  margin-bottom: 10rem;
+  border-radius: 50%;
+}
+#bar-container {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+.load {
+  font-size: 2rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: rgb(116, 243, 68);
+  text-align: center;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+}
