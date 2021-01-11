@@ -1,5 +1,5 @@
 # The-Gooble-Box
-- https://pages.git.generalassemb.ly/Stephen-Sayage/The-Gooble-Box/
+- Gooble-Box.surge.sh
 ## App Title: The Gooble Box
 ## App Description: 
 - A Rick and Morty character generator that will list 6 characters, displaying their names and 3-5
